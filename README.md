@@ -1,5 +1,8 @@
 # Calculadora-de-notas-escolares
-Calculadora de notas escolares em C.
+School Grade Calculator in C
 
-Uma calculadora que informa quantos alunos foram aprovados na cadeira, considerando-se o modelo de avaliação usado no Cobalto, onde o aluno apenas será aprovado ao obter média 7 entre as duas avaliações.
-O diferencial dessa calculadora é que ela permite que insira o número de alunos que quiser até que informe um número negativo, o que para a inserção de dados. Para conseguir isso, eu precisei criar uma realocação de memória, que funciona adicionando um novo espaço à variável enquanto os dados são inseridos. Normalmente, o número de dados que será inserido é informado anteriormente, já que por padrão as variáveis comportam números finitos de dados, que devem ser definidos previamente.
+I developed an application in the C programming language designed to automatically calculate the number of students who passed a course, based on the evaluation model used in the Cobalto academic system, where a student is considered approved when achieving an average score of 7 or higher across two exams.
+
+The system was designed to handle an undefined number of students, allowing continuous data input until a negative value is entered, which serves as the stopping condition. To enable this flexibility, I implemented a dynamic memory reallocation mechanism that expands the available storage as new data is added. This approach removes the need to predefine the number of records, overcoming the limitations of static structures and making the application more scalable and efficient in data management.
+
+This project demonstrates proficiency in dynamic memory manipulation, control flow, algorithmic logic, and good programming practices in C, with a focus on efficiency and adaptability to varying input sizes.
