@@ -1,4 +1,4 @@
-# Calculadora-de-notas-escolares
+# School grade calculator
 School Grade Calculator in C
 
 I developed an application in the C programming language designed to automatically calculate the number of students who passed a course, based on the evaluation model used in the Cobalto academic system, where a student is considered approved when achieving an average score of 7 or higher across two exams.
